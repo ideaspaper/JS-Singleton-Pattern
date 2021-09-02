@@ -3,11 +3,13 @@
  */
 class Singleton {
   /**
+   * Property to hold the Singleton instance.
    * @type {Singleton}
    */
   static #instance = null;
 
   /**
+   * Create a new Singleton instance. This constructor cannot be accessed from outside of this class.
    * @private
    */
   constructor() { }
